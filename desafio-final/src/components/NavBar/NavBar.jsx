@@ -1,9 +1,8 @@
 import { NavLink } from '../NavLink/NavLink';
 import './NavBar.css';
 import { CartWidget } from '../CartWidget/CartWidget';
+import React from 'react'
 const NavBar = ()=>{
-
-
 
     return(
         <div className="menu-ecommerce">
