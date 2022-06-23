@@ -1,6 +1,7 @@
 const productos = [
     {
       id: 1,
+      categoria:'Oriental',
       nombre: "Sauce - Sesame Thai Dressing",
       descripcion: "Frontal sinusotomy",
       precio: "$6789.81",
@@ -10,6 +11,7 @@ const productos = [
     },
     {
       id: 2,
+      categoria:'Oriental',
       nombre: "Cornflakes",
       descripcion:
         "Division of joint capsule, ligament, or cartilage, unspecified site",
@@ -19,6 +21,7 @@ const productos = [
     },
     {
       id: 3,
+      categoria:'Oriental',
       nombre: "Pasta - Canelloni, Single Serve",
       descripcion: "Other soft tissue x-ray of lower limb",
       precio: "$10864.23",
@@ -27,6 +30,7 @@ const productos = [
     },
     {
       id: 4,
+      categoria:'Oriental',
       nombre: "Plate Foam Laminated 9in Blk",
       descripcion: "Other repair of cervix",
       precio: "$3999.58",
@@ -35,6 +39,7 @@ const productos = [
     },
     {
       id: 5,
+      categoria:'Oriental',
       nombre: "Wine - Riesling Alsace Ac 2001",
       descripcion: "Evacuation of obstetrical incisional hematoma of perineum",
       precio: "$1507.39",
@@ -43,6 +48,7 @@ const productos = [
     },
     {
       id: 6,
+      categoria:'Oriental',
       nombre: "Poppy Seed",
       descripcion: "Dental wiring",
       precio: "$11141.02",
@@ -51,6 +57,7 @@ const productos = [
     },
     {
       id: 7,
+      categoria:'Oriental',
       nombre: "Pork - Bones",
       descripcion: "Intravascular imaging of extracranial cerebral vessels",
       precio: "$14439.61",
@@ -59,6 +66,7 @@ const productos = [
     },
     {
       id: 8,
+      categoria:'Oriental',
       nombre: "Bread - Rye",
       descripcion: "Other destruction of chorioretinal lesion",
       precio: "$11275.30",
@@ -67,6 +75,7 @@ const productos = [
     },
     {
       id: 9,
+      categoria:'Oriental',
       nombre: "Mushroom - King Eryingii",
       descripcion:
         "Creation of conduit between right ventricle and pulmonary artery",
@@ -76,6 +85,7 @@ const productos = [
     },
     {
       id: 10,
+      categoria: "Occidental",
       nombre: "Bacardi Raspberry",
       descripcion:
         "Laparoscopic bilateral repair of indirect inguinal hernia with graft or prosthesis",
@@ -85,6 +95,7 @@ const productos = [
     },
     {
       id: 11,
+      categoria: "Occidental",
       nombre: "Fudge - Cream Fudge",
       descripcion: "Other cystotomy",
       precio: "$932.98",
@@ -93,6 +104,7 @@ const productos = [
     },
     {
       id: 12,
+      categoria: "Occidental",
       nombre: "Juice - V8, Tomato",
       descripcion: "Incision of prostate",
       precio: "$11570.66",
@@ -101,6 +113,7 @@ const productos = [
     },
     {
       id: 13,
+      categoria: "Occidental",
       nombre: "Appetizer - Escargot Puff",
       descripcion: "Shortening procedure on one extraocular muscle",
       precio: "$12295.21",
@@ -109,6 +122,7 @@ const productos = [
     },
     {
       id: 14,
+      categoria: "Occidental",
       nombre: "Flour - Semolina",
       descripcion: "Biopsy of lymphatic structure",
       precio: "$7005.94",
@@ -117,6 +131,7 @@ const productos = [
     },
     {
       id: 15,
+      categoria: "Occidental",
       nombre: "Pasta - Orecchiette",
       descripcion: "Exteriorization of esophageal pouch",
       precio: "$3493.10",
@@ -125,6 +140,7 @@ const productos = [
     },
     {
       id: 16,
+      categoria: "Occidental",
       nombre: "Rice - Sushi",
       descripcion: "Amputation through humerus",
       precio: "$8097.73",
@@ -133,6 +149,7 @@ const productos = [
     },
     {
       id: 17,
+      categoria: "Occidental",
       nombre: "Spice - Chili Powder Mexican",
       descripcion: "Other conjunctivoplasty",
       precio: "$12412.00",
@@ -141,14 +158,16 @@ const productos = [
     },
     {
       id: 18,
+      categoria: "Occidental",
       nombre: "Skewers - Bamboo",
       descripcion: "Division of joint capsule, ligament, or cartilage, ankle",
       precio: "$13397.08",
-imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png",
+      imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png",
       stock: 6,
     },
     {
       id: 19,
+      categoria: "Occidental",
       nombre: "Couscous",
       descripcion: "Local excision of other lesion or tissue of esophagus",
       precio: "$2502.46",
@@ -157,6 +176,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 20,
+      categoria: "Occidental",
       nombre: "Lettuce - Lolla Rosa",
       descripcion: "Caval-pulmonary artery anastomosis",
       precio: "$866.04",
@@ -165,6 +185,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 21,
+      categoria: "Occidental",
       nombre: "Chicken - Breast, 5 - 7 Oz",
       descripcion:
         "Reconstruction of trachea and construction of artificial larynx",
@@ -174,6 +195,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 22,
+      categoria: "Occidental",
       nombre: "Butter - Salted, Micro",
       descripcion: "Other surgical occlusion of vessels, unspecified site",
       precio: "$13356.24",
@@ -182,14 +204,16 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 23,
+      categoria: "Occidental",
       nombre: "Beef Flat Iron Steak",
-      descripcion: "Total excision of pituitary gland, transsphenoidal approach",
+      descripcion: "Total excision of pituitary gland, transsphenoidal",
       precio: "$8920.08",
       imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-de-una-imagen.png",
       stock: 36,
     },
     {
       id: 24,
+      categoria: "Occidental",
       nombre: "Chips Potato Swt Chilli Sour",
       descripcion: "Esophagogastroplasty",
       precio: "$4318.83",
@@ -198,6 +222,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 25,
+      categoria: "Occidental",
       nombre: "Wine - White, Mosel Gold",
       descripcion: "Other plastic repair of mouth",
       precio: "$3545.55",
@@ -206,6 +231,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 26,
+      categoria: "Occidental",
       nombre: "Sponge Cake Mix - Vanilla",
       descripcion: "Other simple suture of ovary",
       precio: "$10596.12",
@@ -214,6 +240,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 27,
+      categoria: "Occidental",
       nombre: "Versatainer Nc - 9388",
       descripcion:
         "Excision or destruction of breast tissue, not otherwise specified",
@@ -223,6 +250,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 28,
+      categoria: "Occidental",
       nombre: "Mace",
       descripcion: "Distal pancreatectomy",
       precio: "$2484.07",
@@ -231,6 +259,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 29,
+      categoria: "Occidental",
       nombre: "Mushroom - Crimini",
       descripcion: "Limb shortening procedures, tibia and fibula",
       precio: "$11372.88",
@@ -239,6 +268,7 @@ imagen:"https://josefacchin.com/wp-content/uploads/2020/02/como-quitar-el-fondo-
     },
     {
       id: 30,
+      categoria: "Occidental",
       nombre: "Garbage Bag - Clear",
       descripcion:
         "Excision of lesion of maxillary sinus with Caldwell-Luc approach",
