@@ -13,13 +13,15 @@ export const CartProvider = ({children}) =>{
 
     const addToCart = (producto,cantidad)=>{
             if(isInCart)
-                setCart([...cart,{...producto,cantidad}]);
-            
+                setCart([...cart,{...producto,cantidad}]);            
     }
 
+    //Este no te anda
     const removeItem = (id) => {
-        const products = cart.filter(prod => prod.id !== id)
+        const products = cart.filter(prod => prod.id === id)
         setCart(products)
+        if(cart.length===1)
+            clearCart();
     }
 
     const clearCart = () => {
@@ -30,6 +32,11 @@ export const CartProvider = ({children}) =>{
         return cart.some((prod) => prod.id === itemId);
     }
 
-    return <CartContext.Provider value={{cart,addToCart,isInCart,clearCart,removeItem}}>{children}</CartContext.Provider>
+    const getCartItems = ()=>{
+        console.log("Productos en el carrito: ",cart.length);
+        return cart.length;
+    }
+
+    return <CartContext.Provider value={{cart,addToCart,isInCart,clearCart,removeItem,getCartItems}}>{children}</CartContext.Provider>
     
 }

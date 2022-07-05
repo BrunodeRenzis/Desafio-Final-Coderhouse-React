@@ -6,6 +6,7 @@ const ItemDetailContainer = () => {
     const {itemId} = useParams(); 
     console.log("Item id: " + itemId);
     const [producto,setProducto] = useState({})
+    const [isLoading,setIsLoading] = useState(true);
     useEffect(()=>{
       const traerProducto = new  Promise((res,rej)=>{
         setTimeout(() => {
